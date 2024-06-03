@@ -1,0 +1,9 @@
+import random 
+
+karakter = "()<>+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+sayi = int(input("Kaç karakterli bir şifre oluşturmak istiyorsunuz"))
+
+sifre = ""
+for i in range(sayi):
+    sifre = sifre + random.choice(karakter)
+print(sifre)
