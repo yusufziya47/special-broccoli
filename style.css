@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #3EAE30; /* Web sayfasının arka plan rengi */
+    color: #0059fd; /* Metin rengi */
+}
+h1 {
+    color: #0059fd; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+h2 {
+    color: #0059fd; /* Alt başlık rengi */
+    font-size: 18px; /* Alt başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Alt başlıkta kullanılan yazı tipi ailesi */
+}
+
+li {
+    color: #ff0000; /* Liste elemanı rengi */
+    font-size: 14px; /* Liste elemanı yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Liste elemanı yazı tipi ailesi */
+}
+
+p {
+    color : black; 
+    font-size: 14px; /* <p></p> etiketindeki yazının boyutu */
+    font-family: Arial, sans-serif; /* <p></p> etiketindeki yazı tipi ailesi */
+    line-height: 1.6; /* Satır aralıkları */
+}
+
+h3 {
+    color: blue;
+    font-size: 20px; /* Başlık 3. düzeyindeki yazı tipi boyutu */
+    font-family: Arial, sans-serif; /* Başlık 3. düzeyindeki yazı tipi ailesi */
+    text-decoration: underline; /* Başlık 3. düzeyindeki yazı üstülini işaretler */
+}
